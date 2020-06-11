@@ -4,6 +4,7 @@
 メモ
 
 
+```
 request.data Contains the incoming request data as string in case it came with a mimetype Flask does not handle.
 
 request.args: the key/value pairs in the URL query string
@@ -17,6 +18,7 @@ request.form['name']: use indexing if you know the key exists
 request.form.get('name'): use get if the key might not exist
 request.form.getlist('name'): use getlist if the key is sent multiple times and you want a list of values. get only returns the first value.
 
+```
 
 
 ここ参考    
